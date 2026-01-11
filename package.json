@@ -1,0 +1,11 @@
+{
+  "name": "dev-web",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6"
+  }
+}

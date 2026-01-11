@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('FAIL DEMO', async ({ page }) => {
+test('force fail demo', async ({ page }) => {
   await page.goto('http://localhost:3000');
-  await expect(page).toHaveTitle('THIS TITLE WILL NEVER MATCH');
+  expect(1).toBe(2); // ❌ fail แน่นอน
 });
